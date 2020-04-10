@@ -11,8 +11,10 @@
 	cursor: pointer;
 	text-shadow: none;
 	color: #000000;
-	background-color: #5edb9b; 
-        setting alpha = 0.4
+	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+   	background: rgba(204, 204, 204, 0.5);
+	
+        
   font-weight: bold;
 	
 }
