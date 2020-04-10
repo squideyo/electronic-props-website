@@ -10,7 +10,7 @@
 	font-size: 30px;
 	cursor: pointer;
 	text-shadow: none;
-	color: black;
+	color: #000000;
   font-weight: bold;
 }
 .navbar .nav li.dropdown > .dropdown-toggle .caret {
