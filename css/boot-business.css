@@ -11,8 +11,8 @@
 	cursor: pointer;
 	text-shadow: none;
 	color: #000000;
-	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
-   	background: rgba(204, 204, 204, 0.5);
+	background: rgb(36, 199, 131); /* Fallback for older browsers without RGBA-support */
+   	background: rgba(36, 199, 131, 0.5);
 	
         
   font-weight: bold;
@@ -26,6 +26,9 @@
 	text-shadow: none;
 	color: #000000;
 	font-size: 17px;
+	background: rgb(36, 199, 131); /* Fallback for older browsers without RGBA-support */
+   	background: rgba(36, 199, 131, 0.5);
+	
   font-weight: bold;
   -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
