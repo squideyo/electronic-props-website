@@ -15,6 +15,52 @@
     <link href="css/font-awesome-ie7.css" rel="stylesheet">
     <!-- Bootbusiness theme -->
     <link href="css/boot-business.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <style type="text/css">
+      html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 80%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: 0;
+    }
+    
+    .slick-active {
+      opacity: 1;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+  </style>
+
+
   </head>
   <body>
     <!-- Start: HEADER -->
@@ -43,7 +89,7 @@
                     <li><a href="https://www.google.com/search?q=sweet+looking+countertops&tbm=isch&hl=en&ved=2ahUKEwi0zYaus9voAhVaH3IKHQplAxIQBXoECAEQKA&biw=1848&bih=1050">Custom Counter tops</a></li>             
                     <li class="divider"></li>
                     <li class="nav-header">SERVICES</li>
-                    <li><a href="www.google.com">Virutal Home Desginer</a></li>
+                    <li><a href="#Virtual">Virutal Home Desginer</a></li>
                     <li><a href="service.html"></a></li>
                     <li><a href="service.html"></a></li>
                     <li><a href="all_services.html"></a></li>
@@ -62,62 +108,108 @@
     <!-- Start: MAIN CONTENT -->
     <div class="content">
       <div class="container">
+
+           <div>
+          <br>
+          <br>
+          <br>
+          <br>
+          </div>
+      
         <div class="page-header">
           <h1>Design your Dream home today we'll help everystep of the way</h1>
         </div>
+        <div><p>                                                   </p></div>
+        <div>
+          <p style="text-margin-top: 20px;"> Choose From our catalog of prefab housing below or use the virtual designer tool</p>
+          <a href="#Virtual">Take me to Virtual Designer</a>
+          <section class="vertical slider">
+    <div>
+      <img src="img/1.png">
+    </div>
+    <div>
+      <img src="img/2.png">
+    </div>
+    <div>
+      <img src="img/3.png">
+    </div>
+    <div>
+      <img src="img/4.png">
+    </div>
+    <div>
+      <img src="img/5.png">
+    </div>
+    <div>
+      <img src="img/6.png">
+    </div>
+  </section>
+        
         <div class="row">
           <div class="span7">
             <article class="post-row article">
-              <h3>Try our Virtual Designer below</h3>
-              
-              <iframe height="650px" width="100%" src="https://repl.it/@ZachariahHazelw/RevolvingNovelSequel?lite=1&outputonly=1"" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" style="border: 0px none; margin-left: -0px; height: 300px; margin-top: -100px; width: 650px; "
-              
-              ></iframe>
+
+
          
             
               
-            <script>
-            var x = this.frameElement.attributes.id
-            $("x").contents().find(".jqconsole").remove();</script>
+            
               <h3>
-                <a href="https://www.facebook.com/PutinPls/?ref=bookmarks">New Eco Pod</a>
-                <small>$89000 -$134000 NZD</small>
+             
               </h3>
-              <img src="img/ECO_HOUSE_2-1024x600.jpg" class="thumbnail bottom-space">
+              
               <p>
-                Ted will insert some sick picture here of design 
+                
               </p>
               <p>
-                top teir option , will write somthing about ecopod or whatever we decied to call it
+               
               </p>
             </article>
             <article class="post-row article">
               <h3>
-                <a href="https://www.facebook.com/PutinPls/?ref=bookmarks">Eco Bachlor Pad</a>
-                <small>$18000 -$32000 NZD</small>
+               
+                <small></small>
               </h3>
-              <img src="img/ecohome2.jpg" class="thumbnail bottom-space">
+             
               <p>
-                secound design , ted
+                
               </p>
               <p>
-              more sutied to the cheap type,  will write somthing about ecopod or whatever we decied to call it
+            
               </p>
             </article>
             <article class="post-row article">
               <h3>
-                <a href="https://www.facebook.com/PutinPls/?ref=bookmarks">The ECO GOD!!</a>
-                <small>$5000 -$7000 NZD</small>
+               
+                
               </h3>
-              <img src="img/adventurer.jpg" class="thumbnail bottom-space">
+          
               <p>
-                For the truly adventorus type 
+              
               </p>
               <p>
-                Eco warriors paradise
+                
               </p>
+
+
+              
+        <div class="page-header">
+          <h1>Please use the virtual designer below to customise your build !</h1>
+         </div>
+       <div>
+          <br>
+          <br>
+ 
+         
+      </div>
+      
+
+              <span id="Virtual">
+                  <iframe height="500px" width="100%" src="https://repl.it/@ZachariahHazelw/RevolvingNovelSequel?lite=1&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" style="border: 0px none; margin-left: 110px; height: 500px; ; width: 1000px; "
+              
+              ></iframe>
+            </span>
             </article>
-                          <div class="pagination pagination-centered">
+             <div class="pagination pagination-centered">
               <ul>
                 <li class="disabled">
                   <a href="#">&laquo;</a>
@@ -147,10 +239,24 @@
             </div>
           </div>
           <div class="span4 pull-right sidebar">
+
+          <div>
+          	<br>
+          	<br>
+          	<br>
+          	<br>
+
+
      
             
             
-            <h5>We can help with Resource and Building consent too !</h5>
+
+                                                  
+          </div>          
+        </div>
+      </div>
+      <div>
+      	            <h5>We can help with Resource and Building consent too !</h5>
             <h4>
               <a href="www.google.com">For Waikato</a><br>
               <small>Resource and Building consent</small>
@@ -169,14 +275,11 @@
             </h4>
             <h4>
               <a href="post.html"></a><br>
-              <small></small>
-            </h4>                                                   
-          </div>          
-        </div>
-      </div>
+              <small></small></h4>
+         </div>
     </div>
     <!-- End: MAIN CONTENT -->
-    <!-- Start: FOOTER -->
+     <!-- Start: FOOTER -->
     <footer>
       <div class="container">
         <div class="row">
@@ -234,10 +337,72 @@
       </div>
     </footer>
     <!-- End: FOOTER -->
+
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/boot-business.js"></script>
-  </body>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".vertical-center-4").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 4,
+        slidesToScroll: 2
+      });
+      $(".vertical-center-3").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".vertical-center-2").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+        slidesToShow: 2,
+        slidesToScroll: 2
+      });
+      $(".vertical-center").slick({
+        dots: true,
+        vertical: true,
+        centerMode: true,
+      });
+      $(".vertical").slick({
+        dots: true,
+        vertical: true,
+        slidesToShow: 2,
+        slidesToScroll: 2
+      });
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 5,
+        slidesToScroll: 3
+      });
+      $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+      });
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+      });
+    });
+</script>
+</body>
 </html>
 
     
