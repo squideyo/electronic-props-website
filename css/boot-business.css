@@ -254,6 +254,7 @@
 footer {
   color: black;
   padding-top: 20px;
+  width: 100%;
 }
 .quick-links {
   list-style: none;
